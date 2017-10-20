@@ -39,5 +39,12 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	By merging two branches together we get as a result (if we don't have
+	any conflicts) a project that has all the additions and deletions 
+	that happened after the path split into those branches. We represent it
+	like that because the final outcome of the merge has as parent both the
+	branches that it came from and all their commits show in its log by
+	chronological order.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
