@@ -35,7 +35,11 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    I would collaborate by editing code on my personal machine and then
+	either emailing the compressed file or transfering it with a USB flash
+	drive. This would make things a lot harder because it would spam the inbox
+	or I would have to spend time manually giving the USB to the person I collaborate
+	with. GitHub makes all the things I want to do simple and automatic.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
