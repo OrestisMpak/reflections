@@ -1,0 +1,27 @@
+git log  |    Show a list of commits reachable from this branch
+git log --stat  |    Show additional information about the commits
+git log --graph --oneline branch1 branch2  |    Show a visual representation of the commit history within the specified branches
+
+git diff id1 id2  |    Compare two commits
+git diff  |    Compare the working directory with the staging area
+git diff --staged  |    Compare the staging area with the repository
+git show commitID  |    Compare the commit with its parent
+
+git checkout  |    Show the specified commit/branch
+git checkout -b new_branch  |    Create a new branch and checkout this branch (git branch new_branch + git checkout new_branch)
+git branch  |    Show the names of all the branches 
+git merge (branch1) branch2  |    Merge two branches, branch2 get merged into branch1
+git branch -d name  |    Remove the branch with the specified name
+
+git add  |    Add a file to the staging area
+git commit  |    Commit the files from the staging area to the repository and write a commit message
+git reset --hard  |    Undo all changes. NO WAY BACK FROM THIS! 
+git status  |    Show information about the repository    
+
+git clone  |    Create a local copy/clone of a repository
+git remote  |    Show all remote locations for the repository
+git remote -v  |    Show the remote locations with more information (fetch and push urls)
+git remote add origin url |     Add a new remote location for the repository
+git push origin master  |    Push the local master branch to the remote location origin
+git pull origin master  |    Get the master branch from the remote location origin. (git fetch origin + git merge master origin/master)
+git fetch origin  |    Get the changes from the remote location into the origin/master branch
